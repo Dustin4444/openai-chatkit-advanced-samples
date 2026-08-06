@@ -120,7 +120,7 @@ requires-dist = [
     { name = "jinja2" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.8,<2" },
     { name = "openai", specifier = ">=1.40" },
-    { name = "openai-chatkit", specifier = ">=1.4.1,<2" },
+    { name = "openai-chatkit", specifier = ">=1.5.3,<1.6.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6.4,<0.7" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.36,<0.37" },
 ]
@@ -548,7 +548,7 @@ wheels = [
 
 [[package]]
 name = "openai-chatkit"
-version = "1.4.1"
+version = "1.5.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -557,9 +557,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e4/44/f6dc99c00343bc4b2e3a618d0f4d90ede105c297a2dc82e1eb8e39658a52/openai_chatkit-1.4.1.tar.gz", hash = "sha256:871212dce80b4c774dbb10e2c2ee11ecd13a2c8d86e95c791110a1f6c860138d", size = 57954, upload-time = "2025-12-18T23:44:05.117Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/16/45/854c988728c8638064f3fb5652b30be395a164b526aa7fda2f24de6652c9/openai_chatkit-1.5.3.tar.gz", hash = "sha256:ef43c500a9a8f7e066a99cd04369cee5ee4dacdb1ec94976cb3b17a2caab185f", size = 59768, upload-time = "2026-01-15T06:25:51.225Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a2/d7/2ba7198ebfa2a31b35b5253827f15290479b4377d4518b78173621467af4/openai_chatkit-1.4.1-py3-none-any.whl", hash = "sha256:b9e4d3c8ba708ad66a3ba577a04c1e154b1a27ab454ee312c90d886b7c61f34c", size = 41150, upload-time = "2025-12-18T23:44:03.784Z" },
+    { url = "https://files.pythonhosted.org/packages/9d/40/f5dacf061be090a912a3977033123044856bb0e195bbf0a6afa27dd288a7/openai_chatkit-1.5.3-py3-none-any.whl", hash = "sha256:aa6a5bda8620d5875cdeccd843f675cf74c56842622c4a24dc1e89f3b74304fb", size = 41731, upload-time = "2026-01-15T06:25:50.105Z" },
 ]
 
 [[package]]
@@ -999,11 +999,11 @@ wheels = [
 
 [[package]]
 name = "urllib3"
-version = "2.5.0"
+version = "2.7.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz", hash = "sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760", size = 393185, upload-time = "2025-06-18T14:07:41.644Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz", hash = "sha256:231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c", size = 433602, upload-time = "2026-05-07T16:13:18.596Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl", hash = "sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc", size = 129795, upload-time = "2025-06-18T14:07:40.39Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl", hash = "sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897", size = 131087, upload-time = "2026-05-07T16:13:17.151Z" },
 ]
 
 [[package]]
